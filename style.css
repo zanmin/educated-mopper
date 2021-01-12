@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black !important;
+    background-image: url("../royal_projekti/pics/bgimage2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.banner-text {
+    text-align: center;
+     color: white;
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'Great Vibes', cursive;
+    color: #512A51;
+
+}
+
+.banner-text p{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.topnav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    padding: 25px;
+    font-size: 14px;
+    float: right;
+}
+
+.topnav li a:hover{
+    background-color: #512A51;
+    border-radius: 25px;
+}
+
+.text-center{
+    position: absolute;
+    display: inline;
+    top: 18px;
+    left: 20px;
+
+}
+.links li{
+    list-style-type: none;
+}
+
+.topnav h1{
+    color: #512A51;
+    display: inline;
+    float: left;
+    padding: 0.7rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+
+}
+.topnav li{
+    list-style: none;
+}
+
+.topnav{
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    padding: 10px 20px 10px 10px; 
+    text-align: right;
+    background: black;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: rgba(128, 128, 128, 0.632);
+    text-align: center;
+}
+
+.textbox{
+    color: white;
+    width: 50%;
+    padding-top: 5rem;
+    margin: 0 auto;
+}
+
+.textbox p{
+    text-align: justify;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10rem 0 5rem 0;
+}
+
+.links img{
+    height: 50px;
+    width: 50px;
+    margin: 0 15px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+.images a{
+    width: 300px;
+    flex-grow: 1;
+    flex-basis: 125px;
+    max-width: 300px;
+    margin: 5px;
+}
+.images img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.pricenav {
+    color: white;
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-right: 20%;
+    background: rgb(51,24,58);
+    background: linear-gradient(90deg, rgba(51,24,58,1) 0%, rgba(0,0,0,1) 50%, rgba(51,24,58,1) 100%);    border-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.modal-dialog p{
+    font-size: 13px;
+    text-align: center;
+}
+
+@media (max-width:800px) {
+
+    body h1{
+        position: absolute;
+    }
+
+    .banner-text p{
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner-text h1{
+        padding-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .banner-text{
+        margin-bottom: 10rem;
+    }
+    .topnav {
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+  
+    .topnav ul{
+        padding-top: 50px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .topnav li a{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .pääsivu, .uutiskirje{
+        width: 100%;
+
+    }
+    body{
+        background-image: url("../royal_projekti/pics/bgimage2.jpg");
+    }
+    .textbox{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        padding-top: 7rem;
+    }
+    
+    .links {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .images{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .images img{
+        width: 300px;
+        flex-grow: 1;
+        flex-basis: 125px;
+        max-width: 300px;
+        margin: 5px;
+    }
+    .pricenav{
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+@media (max-width:613px){
+    .text-center{
+        margin-left: auto;
+        margin-right: auto;
+        width: 93%;
+        margin-top: 21rem;
+    }
+    .pricenav{
+        margin-top: 13rem;
+    }
+    .banner-text{
+        margin-bottom: 17rem;
+    }
+}
